@@ -1,0 +1,38 @@
+
+#contenedor {
+	width: 50%;
+	margin: auto;
+	background: white;
+	text-align: center;
+	padding: 10px 5px;
+	border-radius: 10px;
+}
+
+input[type="radio"] { display: none; }
+
+label {
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+#elementos { margin-top: 20px; }
+
+img {
+	margin: 5px;
+}
+
+#contenedor #cerca:checked ~ #elementos .salon,
+#contenedor #cerca:checked ~ #elementos .escenario {
+	display: none;
+}
+
+
+#contenedor #salon:checked ~ #elementos .cerca,
+#contenedor #salon:checked ~ #elementos .escenario {
+	display: none;
+}
+
+#contenedor #escenario:checked ~ #elementos .cerca,
+#contenedor #escenario:checked ~ #elementos .salon {
+	display: none;
+}
