@@ -35,3 +35,5 @@ label {
 #contenedor #escenario:checked ~ #elementos .salon {
 	display: none;
 }
+.checked {
+	color: orange;
