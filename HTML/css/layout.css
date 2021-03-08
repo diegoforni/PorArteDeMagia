@@ -508,7 +508,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .footer .footer-logo {
-  width: 85px;
+  width: 190px;
   height: auto;
 }
 
@@ -602,7 +602,7 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .logo {
-  width: 100px;
+  width: 180px;
   height: 100px;
   float: left;
   max-height: 95px;
@@ -620,7 +620,7 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 85px;
+  width: 180px;
   height: auto;
   max-width: 100%;
   max-height: 100%;
